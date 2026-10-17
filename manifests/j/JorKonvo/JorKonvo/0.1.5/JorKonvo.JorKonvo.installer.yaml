@@ -1,0 +1,18 @@
+PackageIdentifier: JorKonvo.JorKonvo
+PackageVersion: 0.1.5
+InstallerType: nsis
+Scope: user
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+InstallerSwitches:
+  Silent: "/S"
+  SilentWithProgress: "/S"
+Installers:
+- Architecture: x64
+  InstallerUrl: https://git.szabotar.dev/thatumi/JorKonvo/releases/download/windows-v0.1.5/JorKonvo_0.1.5_x64-setup.exe
+  InstallerSha256: E99CF8DAD755548DA1D95F54225EA74A88250B3904818DDF303465ECE18CB668
+  ReleaseDate: 2026-10-17
+ManifestType: installer
+ManifestVersion: 1.9.0
