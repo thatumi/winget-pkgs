@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: JorKonvo.JorKonvo
+PackageVersion: 0.1.6
+PackageLocale: en-US
+Publisher: Tamás Szabó
+PublisherUrl: https://github.com/thatumi
+PublisherSupportUrl: https://github.com/thatumi/JorKonvo/issues
+PackageName: JorKonvo
+PackageUrl: https://github.com/thatumi/JorKonvo
+License: MIT
+LicenseUrl: https://github.com/thatumi/JorKonvo/blob/main/LICENSE
+ShortDescription: Discord-style Matrix client
+Description: |-
+  JorKonvo is a Discord-style client for the Matrix protocol: servers (spaces), roles, voice and video calls, end-to-end encryption. This is the desktop build (Tauri + WebView2).
+Moniker: jorkonvo
+Tags:
+- matrix
+- chat
+- voice
+- video
+- e2ee
+- communication
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
