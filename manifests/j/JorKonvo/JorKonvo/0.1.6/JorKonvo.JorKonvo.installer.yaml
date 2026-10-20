@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: JorKonvo.JorKonvo
+PackageVersion: 0.1.6
+InstallerType: nullsoft
+Scope: user
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+InstallerSwitches:
+  Silent: /S
+  SilentWithProgress: /S
+Installers:
+- Architecture: x64
+  InstallerUrl: https://git.szabotar.dev/thatumi/JorKonvo/releases/download/windows-v0.1.6/JorKonvo_0.1.6_x64-setup.exe
+  InstallerSha256: 27681B1170728D3A66DAF71276287E568170011D999B829CFF2E6E30C98F88AE
+  ReleaseDate: 2026-10-20
+  AppsAndFeaturesEntries:
+  - DisplayName: JorKonvo
+    Publisher: Tamás Szabó <szabotar@szabotar.dev>
+    DisplayVersion: 0.1.6
+ManifestType: installer
+ManifestVersion: 1.12.0
